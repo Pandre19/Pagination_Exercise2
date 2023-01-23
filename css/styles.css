@@ -1,0 +1,91 @@
+body{
+  background-color: #565fae;
+  font-family: Helvetica, sans-serif;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.cf:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.page{
+  margin: 50px auto;
+  width: 60%;
+  background-color: #fff;
+  padding: 50px;
+}
+
+.contact-list {
+  padding: 0;
+}
+
+  .contact-item{
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+    .contact-details{
+      width: 60%;
+      float: left;
+    }
+
+      .contact-details .avatar{
+        width: 40px;
+        height: auto;
+        border-radius: 20px;
+        float: left;
+        margin-right: 14px
+      }
+
+      .contact-details h3{
+        margin: 4px 0 2px 0;
+        font-weight: bold;
+        color: #4ba6c3;
+      }
+
+    .joined-details{
+      width: 40%;
+      float: left;
+      text-align: right;
+    }
+
+      .joined-details .date{
+        margin-top: 15px;
+        display: block;
+      }
+
+.pagination{
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+ 
+  .pagination li{
+    margin: 0;
+    display: inline;
+  }
+
+    .pagination li a{
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      padding: 3px 8px;
+      text-decoration: none;
+      color: #4ba6c3;
+    }
+
+    .pagination li a.active,
+    .pagination li a:hover{
+      background-color: #4ba6c3;
+      color: #fff;
+    }
+
+    .pagination li a.active {
+      cursor: default;
+    }
